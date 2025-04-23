@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #c4bbc1;
+  color: #333;
+}
+
+.cv-container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(187, 129, 41, 0.1);
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 3px solid #eee;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4caf50;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Main Content Layout */
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.left-column {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-column {
+  flex: 2;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #4caf50;
+  border-bottom: 3px solid #4caf50;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.date {
+  color: #421db3;
+  font-style: italic;
+  font-size: 14px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  border-top: 3px solid #52a124;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #4caf50;
+  font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    padding-right: 0;
+  }
+}
